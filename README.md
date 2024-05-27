@@ -1,4 +1,4 @@
-# All-day-vehicle-detection
+# All-Day-Vehicle-Detection
 
 This repository is used for detecting vehicles both during the day and at night
 
@@ -14,7 +14,7 @@ My code is running slower than the previous time I tested it. It will be improve
 ## Install
 
 ```bash
-$ git clone https://github.com/manhcuong02/All-day-vehicle-detection.git
+$ git clone https://github.com/manhcuong02/All-Day-Vehicle-Detection.git
 $ cd All-day-vehicle-detection
 $ pip install -v -e .
 ```
@@ -54,7 +54,7 @@ Below are some comparison results under daytime conditions between our method an
 ![](results/IMG_5131_630_yolov9e.png)
 ![](results/PVD_930_yolov9.png)
 
-## conclusion
+## Conclusion
 If you have a better and more diverse vehicle detection dataset (I suggest that the dataset should be captured from an aerial view rather than perpendicular to the vehicles), the results will be improved. If you're interested, please star this repo. Thank you.
 
 ## References
