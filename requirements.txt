@@ -1,0 +1,33 @@
+# pip install -r requirements.txt
+
+# Base ----------------------------------------
+matplotlib
+numpy
+opencv-python
+Pillow
+PyYAML
+requests
+scipy
+torch
+torchvision
+tqdm
+
+# Logging -------------------------------------
+tensorboard
+wandb
+
+# Plotting ------------------------------------
+pandas
+seaborn
+
+# Extras --------------------------------------
+albumentations>=1.0.3
+# Cython  # for pycocotools https://github.com/cocodataset/cocoapi/issues/172
+# pycocotools>=2.0  # COCO mAP
+# roboflow
+thop  # FLOPs computation
+ensemble_boxes
+
+#EnlightenGAN
+visdom
+dominate
