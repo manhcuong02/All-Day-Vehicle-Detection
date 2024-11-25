@@ -92,12 +92,12 @@ def detect_video(
     if device != "cpu":
         device = device if torch.cuda.is_available() else "cpu"
     tph_yolov5_model = TPHYolov5(
-        weights=weights, img_size=imgsz, device=device, half=half
+        weights=weights, img_size=imgsz, device="cuda:0" if device == "cuda" else device, half=half
     )
 
     enlighten_model = EnlightenModel(device)
 
-    weather_classifier = WeatherClsasifier(device="cuda" if device == 0 else "cpu")
+    weather_classifier = WeatherClsasifier(device)
 
     video = cv.VideoCapture(source)
 
