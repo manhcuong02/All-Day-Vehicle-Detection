@@ -97,7 +97,7 @@ def detect_video(
 
     enlighten_model = EnlightenModel(device)
 
-    weather_classifier = WeatherClsasifier(device)
+    weather_classifier = WeatherClsasifier(device=device)
 
     video = cv.VideoCapture(source)
 
